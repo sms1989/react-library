@@ -1,9 +1,9 @@
 {
   "name": "@maricoIR/react-library",
   "publishConfig": {
-       "@maricoIR:registry": "https://npm.pkg.github.com"
+       "registry": "https://npm.pkg.github.com/maricoIR"
   },
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -11,9 +11,11 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/maricoIR/react-library.git"
+    "url": "https://github.com/maricoIR/react-library.git"
   },
-  "author": "",
+  "author": {
+    "name": "matin"
+  },
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/maricoIR/react-library/issues"
